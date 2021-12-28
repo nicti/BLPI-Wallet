@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "discord.js": "^13.4.0",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "passport": "^0.5.2",
+    "passport-eve-oauth2": "^1.0.3"
+  },
+  "scripts": {
+    "debug-server": "ts-node --prefer-ts-exts index.ts",
+    "debug-cron": "ts-node --prefer-ts-exts cron.ts"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.20"
+  }
+}
